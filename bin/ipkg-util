@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var ipkgCLI = require('../src/cli.js');
+ipkgCLI();

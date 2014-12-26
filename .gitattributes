@@ -1,0 +1,2 @@
+* text=auto
+/bin/ipkg-util text eol=lf

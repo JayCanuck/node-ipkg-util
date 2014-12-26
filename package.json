@@ -1,0 +1,38 @@
+{
+  "name": "ipkg-util",
+  "version": "0.1.0",
+  "preferGlobal": "true",
+  "description": "An ipkg toolset library and commandline client ",
+  "main": "ipkg-util.js",
+  "author": {
+    "name": "Jason Robitaille",
+    "email": "jason@canuckcoding.ca"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/JayCanuck/node-ipkg/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayCanuck/node-ipkg.git"
+  },
+  "dependencies": {
+    "ar-async": "0.1.3",
+    "shelljs": "0.3.0",
+    "tar-fs": "1.4.1",
+    "yargs": "1.3.3",
+    "jju": "1.1.0"
+  },
+  "bin": {
+    "ipkg-util": "./bin/ipkg-util"
+  },
+  "keywords": [
+    "ipkg",
+    "ipk",
+    "package",
+    "webos",
+    "ar"
+  ]
+}
